@@ -1,0 +1,493 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 450px;
+    background: #78451a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e582c, #b88b5c), url(../img/portada.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e582c, #b88b5c), url(../img/portada.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+nav {
+    text-align: center;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    color: #fff;
+    font-weight: 30px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+
+}
+
+header .textos-header {
+    display: flex;
+    height: 210px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+.textos-header h1 {
+    font-size: 150px;
+    color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+h3 {
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    margin-left: 20px
+}
+
+.top-header {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.texto {
+    font-size: 50px;
+    font-family: 'Montserrat';
+    color: #623307;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #623307;
+    font-size: 40px;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.buscar {
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* headerfin*/
+
+
+
+
+/* footer*/
+footer {
+    background-color: #8e582c;
+    color: white;
+    align-items: bottom;
+    margin-top: 120px;
+}
+
+.footer2 {
+    font-size: 15px;
+}
+
+.redessociales {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+}
+
+.powered {
+    text-align: center;
+}
+
+/*footer fin*/
+
+body {
+    background-color: #d0ab7a;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*INDEX*/
+
+
+.fotoalmedio {
+    align-items: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*INDEX FIN*/
+
+
+/* formularios */
+.login input/* LOGIN */,
+.register input/*REGISTRO*/{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px solid grey;
+    border: 10px;
+    align-self: center;
+}
+
+.container-registro,
+.container-login {
+    display: flex;
+    text-align: center;
+    border-radius: 3px;
+    align-items: left;
+    justify-content: center;
+}
+
+/*agregue ete contenedor para registro y login*/
+/*FORMUALRIOS FIN*/
+
+
+
+
+
+
+/*BOTONES*/
+
+
+.login input[type='submit']/* LOGIN */,
+.register input[type='submit']/*REGISTRO*/,
+.producto-chocolate input[type='submit']/*productos*/,
+.botoncarro input[type='submit']/*carrito*/,
+.registercompras input[type='submit']/*compras*/,
+.login input[type='reset']/* LOGIN */,
+.register input[type='reset']/*REGISTRO*/,
+.botoncarro input[type='reset']/*carro*/,
+.registercompras input[type='reset']/*compras*/ {
+    color: #FFF;
+    background-color: #623307;
+    font-size: 20px;
+    font-family: "Monserrat";
+    margin-top: 15px;
+    transition: all 450ms;
+}
+
+.login input[type='submit']:hover/* LOGIN */,
+.register input[type='submit']:hover/*REGISTRO*/,
+.producto-chocolate input[type='submit']:hover/*productos*/,
+.botoncarro input[type='submit']:hover/*carrito*/,
+.registercompras input[type='submit']:hover/*compras*/,
+.login input[type='reset']:hover/* LOGIN */,
+.register input[type='reset']:hover/*REGISTRO*/,
+.botoncarro input[type='reset']:hover/*carrito*/,
+.registercompras input[type='reset']:hover /*compras*/ {
+    background-color: #8e582c;
+    color: #FFF;
+    border-radius: 20%;
+    font-family: "Monserrat";
+}
+
+ 
+.small-input2 /*descripcion producto*/{
+    display:grid;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    width: 15%;
+    height: 10%;
+    font-size: 15px;
+    font-family: "Monserrat";
+    font-weight: bold;
+    background-color:#d0ab7a;
+    border-radius: 20px;
+    transition: 450ms;
+    margin-left: 450px;
+}   
+
+.small-input2 [type=submit]:hover/*descripcion producto*/,
+.small-input2 [type=reset]:hover/*descripcion producto*/{
+    background-color: #8e582c;
+    color: #FFF;
+    border-radius: 20%;
+    font-family: "Monserrat";
+}
+
+.botoncarro2  input[type='reset']/*carrito-tabla*/{
+    color: #FFF;
+    background-color: #623307;
+    font-size: 20px;
+    font-family: "Monserrat";
+    transition: all 450ms;
+    margin-left : 45px;
+}
+
+.botoncarro2 input[type='reset']:hover /*carrito-tabla*/{
+    background-color: #8e582c;
+    color: #FFF;
+    border-radius: 20%;
+    font-family: "Monserrat";
+    font-size: 20px;
+}
+
+.botonera {
+    margin-top: 20px;
+    color: #623307;
+
+}
+
+/*medios de pago en mis compras*/
+
+.botonera input {
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #623307;
+    padding: 10px 20px;
+}
+
+/*medios de pago en mis compras*/
+/*BOTONES FIN*/
+
+
+
+
+
+
+
+
+
+/* COMPRAS*/
+
+.medios {
+    color: #623307;
+    font-size: 25px;
+    margin: auto;
+    width: 50%;
+}
+
+/*medios de pago en mis compras*/
+
+.medios label {
+    font-size: 18px;
+}
+
+/*medios de pago en mis compras*/
+
+.container-miscompras {
+    display: flex;
+    text-align: center;
+    border-radius: 3px;
+    align-items: left;
+    justify-content: center;
+
+} /*carrito-compras*/
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #623307
+} /* dentro de medios en compras*/
+
+
+.profile input,
+.profile label {
+    width: auto;
+    width: auto;
+} /* dentro de medios en compras*/
+
+
+.tablas-compras {
+
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    font-size: 25px;
+    font-family: "Monserrat";
+    color: #3f2104
+} /*carrito*/
+
+.small-input{
+font-size: 15px;
+font-family: "Monserrat";
+color: #3f2104;
+}
+    
+.precio-col {
+    display: inline-block;
+    background-color: #f3f3f3;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0px 2px 5px #ddd;
+    font-size: 25px;
+    font-family: "Monserrat";
+    color: #3f2104
+}
+
+/*tabla carrito*/
+
+.items {
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: "Monserrat";
+}
+
+/*carrito productos tabla*/
+
+.registercompras input.textInput/*COMPRAS */
+    {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px solid grey;
+    border: 10px;
+    align-self: center;
+}
+
+.subir-imagen-del-producto {
+    color: #3f2104;
+    
+}
+
+
+/*COMPRAS CARRITO FIN*/
+
+
+/*descproducto*/
+.contenedor-prod{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.imagenprod {
+    width: 30%;
+    float: left;
+    position: right;
+    padding: 3%
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #623307;
+    font-size: 30px;
+}
+
+.descp, 
+.preciop{
+    display: flex;
+    justify-content: left;
+    font-size: 23px;
+    padding: 5px;
+    margin: 6px;   
+    font-family: "Monserrat";
+    color: #ffffff;
+    font-weight: bold;
+}
+.description {
+    display: inline-block;
+    justify-content: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35%;
+    font-size: 27px;
+    font-family: "Monserrat";
+    color: #623307;
+    font-weight: bold;
+}
+
+/*descproducto fin*/
+
+
+
+/*productos y tortas*/
+
+.contenedor, .container-agregar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.contenedor img {
+    width: 100%;
+    height: 220px;
+    margin: 5px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px white;
+    flex: auto;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .contenedor img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contenedor img{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contenedor img {
+        width: 95%;
+
+    }
+}
+
+.h3-producto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.producto-chocolate, .productonuevo{
+    text-align: center;
+    margin: 50px;
+}
+
+/*productos y tortas fin*/
+
+
+
