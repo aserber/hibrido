@@ -13,6 +13,10 @@ const inSale = products.filter(function(product){
 	return product.category == 'in-sale'
 })
 const controller = {
+	home: (req, res) => {
+        return res.render('home');
+    },
+
 	index: (req, res) => {
 		res.render('index', {
 			visited,
@@ -29,6 +33,11 @@ const controller = {
 			toThousand,
 		});
 	},
+
+
+
 };
+
+
 
 module.exports = controller;
