@@ -145,11 +145,11 @@
  },
  {
   "id": 18,
-  "name": "Alan",
-  "price": "666",
-  "discount": "15",
+  "name": "se pueden agregard productos",
+  "price": "0",
+  "discount": "0",
   "category": "in-sale",
-  "description": "probando! aaaaaaaaaaaaaa",
+  "description": "se pueden agregard productos",
   "image": "img-sony-blueray.jpg"
  }
 ]
