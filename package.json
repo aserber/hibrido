@@ -14,5 +14,17 @@
     "method-override": "^3.0.0",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.1"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aserber/hibrido.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aserber/hibrido/issues"
+  },
+  "homepage": "https://github.com/aserber/hibrido#readme",
+  "description": ""
 }
