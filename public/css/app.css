@@ -220,7 +220,7 @@ hr {
   position: absolute;
   top: -15px;
   right: 15px;
-  background-color: #ffffff;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,6 +239,7 @@ hr {
 .product-box:hover i {
   transform: rotate(360deg);
   box-shadow: 0 0 5px var(--green);
+  
 }
 
 
