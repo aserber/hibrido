@@ -138,7 +138,7 @@ body {
 
 /*INDEX*/
 
-.row ,.banner , .prod  {
+.row , .prod  {
     background-color: #d0ab7a;
     font-family: 'Roboto', sans-serif;
     color:#3f2104
@@ -147,7 +147,7 @@ body {
     align-items: flex;
     align-items: center;
     text-align: center;
-    background-color: #d0ab7a
+     background-color: #d0ab7a
 }
 
 

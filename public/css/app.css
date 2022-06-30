@@ -9,7 +9,7 @@
   --light-blue: #1259c3;
   --gray: #666666;
   --light-gray: #ebebeb;
-  --green: #39b54a;
+  --green: #ebebeb ;
   --base-font-family: 'Roboto', sans-serif
 }
 
@@ -24,6 +24,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-size: 10px;
+  background-color: #b88b5c
 }
 
 body {
@@ -163,7 +164,7 @@ hr {
 }
 
 .product-box {
-  background-color: #ffffff;
+  background-color: #623307;
   border-radius: 5px;
   overflow: hidden;
   transition: 300ms;
