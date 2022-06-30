@@ -43,11 +43,11 @@ const controller = {
     },
 
     productostortas: (req, res) => {
-        return res.render('productostortas.ejs');
+        return res.render('products.ejs');
     },
 
     producto: (req, res) => {
-        return res.render('producto.ejs');
+        return res.render('products.ejs');
     },
     
     compras: (req, res) => {
@@ -57,16 +57,6 @@ const controller = {
     carrito: (req, res) => {
         return res.render('carrito.ejs');
     },
-
-    descproducto: (req, res) => {
-        return res.render('descproducto.ejs');
-    },
-
-    adminproduc: (req, res) => {
-        return res.render('adminproduc.ejs');
-    },
-
-
 
 };
 

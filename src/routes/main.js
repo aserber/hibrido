@@ -17,7 +17,7 @@ router.get('/registro', mainController.register);
 
 router.get('/login', mainController.login);
 
-router.get('/adminproduc',  mainController.adminproduc);
+//router.get('/adminproduc',  mainController.adminproduc);
 
 router.get('/productostortas', mainController.productostortas);
 
@@ -27,7 +27,7 @@ router.get('/producto', mainController.producto);
 
 router.get('/carrito', mainController.carrito);
 
-router.get('/descproducto', mainController.descproducto);
+//router.get('/descproducto', mainController.descproducto);
 
 
 

@@ -147,14 +147,14 @@ body {
     align-items: flex;
     align-items: center;
     text-align: center;
-     background-color: #d0ab7a
+    background-color: #d0ab7a
 }
 
 
 /* formularios */
 .login input/* LOGIN */,
 .register input/*REGISTRO*/{
-    width: 50%;
+    width: 60%;
     padding: 10px;
     margin: 20px 0px;
     border-radius: 5px solid grey;

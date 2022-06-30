@@ -160,11 +160,11 @@ hr {
 .products-title {
   font-size: 2.4em;
   font-weight: 400;
-  color: #ffffff;
+  color: #623307;
 }
 
 .product-box {
-  background-color: #623307;
+  background-color: white;
   border-radius: 5px;
   overflow: hidden;
   transition: 300ms;
@@ -176,7 +176,7 @@ hr {
 }
 
 .product-box_image {
-  border-bottom: 1px solid var(--light-gray);
+  border-bottom: 1px solid white;
 }
 
 .product-box_data {
@@ -203,7 +203,7 @@ hr {
 .product-box_data p {
   font-size: 1.5em;
   width: 100%;
-  color: var(--gray);
+  color: white;
   margin: 0;
   height: 0;
   transition: 300ms;
@@ -211,7 +211,7 @@ hr {
 }
 
 .product-box_data i {
-  color: var(--green);
+  color: #623307;
   font-size: 1.8em;
   width: 35px;
   height: 35px;
