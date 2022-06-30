@@ -138,14 +138,17 @@ body {
 
 /*INDEX*/
 
-
+.row ,.banner , .prod  {
+    background-color: #d0ab7a;
+    font-family: 'Roboto', sans-serif;
+    color:#3f2104
+}
 .fotoalmedio {
     align-items: flex;
     align-items: center;
     text-align: center;
+    background-color: #d0ab7a
 }
-
-/*INDEX FIN*/
 
 
 /* formularios */

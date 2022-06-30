@@ -29,7 +29,7 @@ body {
 body {
   font-family: var(--base-font-family);
   font-weight: 300;
-  background-color: var(--light-gray);
+  background-color: #b88b5c;
 }
 
 ul,
@@ -159,7 +159,7 @@ hr {
 .products-title {
   font-size: 2.4em;
   font-weight: 400;
-  color: var(--gray);
+  color: #ffffff;
 }
 
 .product-box {
@@ -245,7 +245,7 @@ hr {
 
 /*====== Footer ======*/
 .main-footer {
-  background-color: #ffffff;
+  background-color: #b88b5c;
   padding: 20px 0;
   margin-top: 80px;
 }
@@ -285,7 +285,7 @@ hr {
 
 /*====== Product Detail ======*/
 .product-detail {
-  background-color: #ffffff;
+  background-color: #b88b5c;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -305,6 +305,7 @@ hr {
 .product-detail-title {
   font-weight: 400;
   font-size: 2.8em;
+  color:#ffffff;
 }
 
 .product-detail-description {

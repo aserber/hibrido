@@ -4,16 +4,16 @@
   "name": "Bombones Dulce de Leche",
   "price": 2500,
   "discount": "15",
-  "category": "in-sale",
+  "category": "bombon",
   "description": "Tabletas de chocolate",
-  "image": "img-chocolate1-pro.jpg"
+  "image": "chocolate1.jpg"
  },
  {
   "id": 2,
   "name": "Bombones Surtidos",
   "price": 2500,
   "discount": "15",
-  "category": "in-sale",
+  "category": "bombon",
   "description": "falta",
   "image": "chocolate2.jpg"
  },
@@ -24,7 +24,7 @@
   "price": 2500,
   "discount":  "15",
   "image": "chocolate3.jpg",
-  "category": "in-sale"
+  "category": "bombon"
  },
  {
   "id": 4,
@@ -33,7 +33,7 @@
   "price":  2500,
   "discount": "15",
   "image": "chocolate6.jpg",
-  "category": "in-sale"
+  "category": "bombon"
  },
  {
   "id": 5,
@@ -42,7 +42,7 @@
   "price": 20999,
   "discount": 12,
   "image": "alineateche.jpg",
-  "category": "in-sale"
+  "category": "bombon"
  },
  {
   "id": 6,
@@ -51,7 +51,7 @@
   "price": 36700,
   "discount": 5,
   "image": "confite2.jpg",
-  "category": "in-sale"
+  "category": "bombon"
  },
  {
   "id": 7,
@@ -60,7 +60,7 @@
   "price": 148000,
   "discount": 2,
   "image": "confite3.jpg",
-  "category": "in-sale"
+  "category": "bombon"
  },
  {
   "id": 8,
@@ -69,5 +69,120 @@
   "price": 11399,
   "discount": 0,
   "image": "confite4.jpg",
-  "category": "visited"
- }]
+  "category": "bombon"
+ },
+
+
+
+
+
+
+ {
+    "id": 9,
+    "name": "Torta Decorada con Macarones",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto4.jpg",
+    "category": "torta"
+   }, 
+   {
+  "id": 10,
+  "name": "Torta Decorada Personalizada",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto11.jpg",
+  "category": "torta"
+ },
+ {
+    "id": 11,
+    "name": "Torta decorada para Casamiento",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto17.jpeg",
+    "category": "torta"
+   },
+   {
+    "id": 12,
+    "name": "Torta decorada",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto3.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 13,
+    "name": "Mousse de Mix de Chocolates",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto1.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 14,
+    "name": "Lemon Pie",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto2.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 15,
+    "name": "Selva Negra",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto13.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 16,
+    "name": "Torta de vainilla",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto10.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 17,
+    "name": "Mousse de Frutos del Bosque",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto5.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 18,
+    "name": "Macarones",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto6.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 19,
+    "name": "Super Chocolate",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto7.jpg",
+    "category": "torta"
+   },
+   {
+    "id": 20,
+    "name": "Tarta de frutillas",
+    "description": "Mani cubierto de chocolate amargo",
+    "price": 11399,
+    "discount": 0,
+    "image": "fotoProducto14.jpg",
+    "category": "torta"
+   }
+]

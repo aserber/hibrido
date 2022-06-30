@@ -2,23 +2,19 @@
 <html lang="es">
 <!-- Include Head -->
 <%- include('partials/head', {title: 'Inicio'}) %>
-<body>
+<body class= "prod">
 	<!-- Header -->
 	<%- include('partials/header') %>
 	<!-- /Header -->
-	
-	<!-- Banner -->
-	<div class="banner"></div>
-	<!-- /Banner -->
-	
+
 	<!-- ultima visita -->
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="products-title">PRODUCTOS</h2>
+				<h2 class="products-title">TORTAS</h2>
 			</div>
 			<!-- Show the "visited" products -->
-			<% visited.forEach(function(product){ 
+			<% torta.forEach(function(product){ 
 				let finalPrice = (product.price * ((100 - product.discount) / 100)).toFixed(0)
 			%>
 				<div class="col-12 col-sm-6 col-lg-3">
@@ -45,10 +41,10 @@
 		<div class="container products-wrapper">
 			<div class="row">
 				<div class="col-12">
-					<h2 class="products-title">Ofertas</h2>
+					<h2 class="products-title">CHOCOLATE</h2>
 				</div>
 				<!-- Show the "in-sale" products -->
-				<% inSale.forEach(function(product){ 
+				<% bombon.forEach(function(product){ 
 					let finalPrice = (product.price * ((100 - product.discount) / 100)).toFixed(0)
 				%>
 					<div class="col-12 col-sm-6 col-lg-3">

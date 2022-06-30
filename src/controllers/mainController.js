@@ -6,11 +6,11 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
-const visited = products.filter(function(product){
-	return product.category == 'visited'
+const bombon = products.filter(function(product){
+	return product.category == 'bombon'
 })
-const inSale = products.filter(function(product){
-	return product.category == 'in-sale'
+const torta = products.filter(function(product){
+	return product.category == 'torta'
 })
 const controller = {
 	home: (req, res) => {
@@ -19,8 +19,8 @@ const controller = {
 
 	index: (req, res) => {
 		res.render('index', {
-			visited,
-			inSale,
+			torta,
+			bombon,
 			toThousand
 		});
 	},
