@@ -28,8 +28,12 @@ app.set('views', path.join(__dirname, '/views')); // Define la ubicación de la 
 const mainRouter = require('./routes/main'); // Rutas main
 const productsRouter = require('./routes/products'); // Rutas /products
 
+const logMiddleware = require('./middlewares/logMiddleware'); // Middleware de logs a la pagina
+
 app.use('/', mainRouter);
 app.use('/products', productsRouter);
+
+app.use(logMiddleware); // app.use del Middleware de log a la pagina
 
 
 
