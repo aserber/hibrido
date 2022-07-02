@@ -33,6 +33,14 @@ const logMiddleware = require('./middlewares/logMiddleware'); // Middleware de l
 app.use('/', mainRouter);
 app.use('/products', productsRouter);
 
+const usersRouter = require ("./routes/users");
+app.get ("/", (req, res) => {
+  res.redirect ("/users/")
+});
+
+app.use("/users", usersRouter);
+
+
 app.use(logMiddleware); // app.use del Middleware de log a la pagina
 
 
