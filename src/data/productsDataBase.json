@@ -81,15 +81,6 @@
   "category": "torta"
  },
  {
-  "id": 10,
-  "name": "Torta Decorada Personalizada",
-  "description": "Mani cubierto de chocolate amargo",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto11.jpg",
-  "category": "torta"
- },
- {
   "id": 11,
   "name": "Torta decorada para Casamiento",
   "description": "Mani cubierto de chocolate amargo",
@@ -168,15 +159,6 @@
   "price": 11399,
   "discount": 0,
   "image": "fotoProducto7.jpg",
-  "category": "torta"
- },
- {
-  "id": 20,
-  "name": "Tarta de frutillas",
-  "description": "Mani cubierto de chocolate amargo",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto14.jpg",
   "category": "torta"
  }
 ]

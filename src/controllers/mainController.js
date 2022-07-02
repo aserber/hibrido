@@ -47,7 +47,7 @@ const controller = {
     },
 
     producto: (req, res) => {
-        return res.render('products.ejs');
+        return res.render('producto.ejs');
     },
     
     compras: (req, res) => {

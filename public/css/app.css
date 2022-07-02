@@ -155,6 +155,7 @@ hr {
 .products-wrapper {
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: #d0ab7a;
 }
 
 .products-title {
@@ -188,22 +189,24 @@ hr {
 }
 
 .product-box_data h2 {
-  font-size: 2.4em;
+  font-size: 2em;
   font-weight: 300;
   margin: 0;
+  background-color: #ffffff;
+  color: #623307
 }
 
 .product-box_data span {
   font-size: 1.5em;
   font-weight: 300;
-  color: var(--green);
+  color: #623307;
   margin: 0 0 0 10px;
 }
 
 .product-box_data p {
   font-size: 1.5em;
   width: 100%;
-  color: white;
+  color: #623307;
   margin: 0;
   height: 0;
   transition: 300ms;
@@ -353,7 +356,7 @@ hr {
 }
 
 .buy-now-button {
-  background-color: var(--light-blue);
+  background-color: #623307;
   font-size: 1.6em;
   color: #ffffff;
   display: flex;
@@ -378,10 +381,10 @@ hr {
 }
 
 .action-button.edit {
-  background-color: chocolate;
+  background-color: #623307;
 }
 .action-button.delete {
-  background-color: rgb(248, 69, 37);
+  background-color: #623307;
 }
 
 
