@@ -10,8 +10,8 @@
 <section class="productos">
   
 	<% for(let i= 0; i < products.length; i++){ %>
-	 
-			<% if (products[i].category == torta) { %>
+	
+			<% if (products[i].category == bombon) { %>
 			<% } %>
 		  <section class="detalle">
 			<h5 class="card-title"><%= products[i].name%></h5>
@@ -19,7 +19,7 @@
 			<p class="card-text descripcion"><%= products[i].description%> </p>
 			<a href="#" class="btn btn-primary">Ver detalle</a>
 		  </section>
-	  
+	
 		</article>        
 	  
 	<% } %>
