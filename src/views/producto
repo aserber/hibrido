@@ -10,9 +10,16 @@
 <section class="productos">
   
 	<% for(let i= 0; i < products.length; i++){ %>
-	
-			<% if (products[i].category == bombon) { %>
-			<% } %>
+		<% if (products[i].category == bombon) { %>
+			<article class="producto">
+                <figure class="imagenProducto" >
+                  <img  src="/public/images/ <%= products[i].imagen%> " class="card-img-top w-100 d-block" alt="chocolates">
+                </figure>
+				<% if (products[i].category == torta) { %>
+                    
+                  <% }else if(products[i].category == bombon ){ %>
+                   
+                  <% } %>
 		  <section class="detalle">
 			<h5 class="card-title"><%= products[i].name%></h5>
 			<h5 class="card-title" >$  <%= products[i].price%> </h5>

@@ -1,0 +1,28 @@
+[ {
+    "id": 17,
+    "name": "Camila",
+    "lastname": "Caracciolo",
+    "email": "camilacaracciolo@hotmail.com",
+    "password": 11399,
+    "image": "fotoProducto5.jpg",
+    "category": "1"
+   },
+   {
+    "id": 18,
+    "name": "Camila",
+    "lastname": "Caracciolo",
+    "email": "camilacaracciolo@hotmail.com",
+    "password": 11399,
+    "image": "fotoProducto5.jpg",
+    "category": "1"
+   },
+   { 
+    "id": 19,
+    "name": "Camila",
+    "lastname": "Caracciolo",
+    "email": "camilacaracciolo@hotmail.com",
+    "password": 11399,
+    "image": "fotoProducto5.jpg",
+    "category": "2"
+   }
+  ]

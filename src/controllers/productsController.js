@@ -15,6 +15,10 @@ const controller = {
 			toThousand
 		})
 	},
+	productos: function (req,res){
+		res.render (path.resolve(__dirname,"..","views","productos"),{products});
+	},
+	
 
 	// Detail - Detail from one product
 	detail: (req, res) => {
