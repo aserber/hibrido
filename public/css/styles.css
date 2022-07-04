@@ -126,7 +126,8 @@ footer {
 }
 
 .powered {
-    text-align: center;
+    text-align: center !important;
+    margin-right: 70px;
 }
 
 /*footer fin*/

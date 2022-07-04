@@ -15,8 +15,11 @@ const controller = {
 			toThousand
 		})
 	},
-	productos: function (req,res){
-		res.render (path.resolve(__dirname,"..","views","productos"),{products});
+	productos:(req, res) => {
+		res.render('products', {
+			products,
+			toThousand
+		})
 	},
 	
 

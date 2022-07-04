@@ -3,36 +3,24 @@
 
 <%- include('partials/head', {title: 'Todos los productos'}) %>
 <%- include('partials/header') %>
-<br>
-<section class="container-fluid">
-  <h1 class="titulo" >Que buenas Hondas</h1>
-</section>
-<section class="productos">
-  
-	<% for(let i= 0; i < products.length; i++){ %>
-		<% if (products[i].category == bombon) { %>
-			<article class="producto">
-                <figure class="imagenProducto" >
-                  <img  src="/public/images/ <%= products[i].imagen%> " class="card-img-top w-100 d-block" alt="chocolates">
-                </figure>
-				<% if (products[i].category == torta) { %>
-                    
-                  <% }else if(products[i].category == bombon ){ %>
-                   
-                  <% } %>
-		  <section class="detalle">
-			<h5 class="card-title"><%= products[i].name%></h5>
-			<h5 class="card-title" >$  <%= products[i].price%> </h5>
-			<p class="card-text descripcion"><%= products[i].description%> </p>
-			<a href="#" class="btn btn-primary">Ver detalle</a>
-		  </section>
-	
-		</article>        
-	  
-	<% } %>
-  
-</section>
-<%- include('partials/footer') %>
+<body class = prod>
 
+<h2> Hola </h2>
+
+<main>
+<div>
+ <form action = "" method = get>
+	<label for = "">Nombre	</label>
+
+	<input type="text" name="name" placeholder="Nombre y apellido">
+    <input type="text" name="user" placeholder="Nombre de usuario">
+    <input type="email" name="email" placeholder="E-mail">
+    <input type="password" name="contraseña" placeholder="Contraseña">
+    <input type="password" name="confirmar Contraseña" placeholder="Confirmar Contraseña">
+    <input type="text" name="addres" placeholder="Domicilio">
+ </form>
+</div>
+</main>
+	<%- include('partials/footer') %>	
 </body>	
 </html>
