@@ -161,7 +161,9 @@ hr {
 .products-title {
   font-size: 2.4em;
   font-weight: 400;
-  color: #623307;
+  background-color: #623307;
+  color: white;
+  text-align: center;
 }
 
 .product-box {
