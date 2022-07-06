@@ -6,11 +6,11 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
-const bombon = products.filter(function(product){
-	return product.category == 'bombon'
+const bombon = products.filter(function(products){
+	return products.category == 'bombon'
 })
-const torta = products.filter(function(product){
-	return product.category == 'torta'
+const torta = products.filter(function(products){
+	return products.category == 'torta'
 })
 const controller = {
 	home: (req, res) => {
