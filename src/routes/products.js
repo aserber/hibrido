@@ -19,7 +19,9 @@ const productsController = require('../controllers/productsController');
 
 /*** GET ALL PRODUCTS ***/ 
 router.get('/', productsController.index); 
-router.get('/producto', productsController.productos); 
+router.get('/producto', productsController.producto); 
+router.get('/productostortas', productsController.producto2); 
+
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', productsController.create); 
 router.post('/', productsController.store); 

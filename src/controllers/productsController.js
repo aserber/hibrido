@@ -15,8 +15,14 @@ const controller = {
 			toThousand
 		})
 	},
-	productos:(req, res) => {
-		res.render('products', {
+	producto:(req, res) => {
+		res.render('producto', {
+			products,
+			toThousand
+		})
+	},
+	producto2:(req, res) => {
+		res.render('productostortas', {
 			products,
 			toThousand
 		})
