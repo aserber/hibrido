@@ -6,12 +6,10 @@ const router = express.Router();
 const mainController = require('../controllers/mainController');
 
 router.get('/', mainController.home); 
+
 router.get('/index', mainController.index); 
+
 router.get('/search', mainController.search); 
-
-
-
-
 
 router.get('/registro', mainController.register);
 

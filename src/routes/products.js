@@ -7,16 +7,6 @@ const productsController = require('../controllers/productsController');
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*** GET ALL PRODUCTS ***/ 
 router.get('/', productsController.index); 
 router.get('/producto', productsController.producto); 
