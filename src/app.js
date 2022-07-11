@@ -28,14 +28,16 @@ app.set('views', path.join(__dirname, '/views')); // Define la ubicación de la 
 // ************ WRITE YOUR CODE FROM HERE ************
 // ************ Route System require and use() ************
 const mainRouter = require('./routes/main'); // Rutas main
-const productsRouter = require('./routes/productos'); // Rutas /products
+const productsRouter = require('./routes/productos'); // Rutas productos
+const userRouter = require('./routes/user'); // Rutas usuarios
+const adminRouter = require('./routes/admin'); // Rutas admin
 
 const logMiddleware = require('./middlewares/logMiddleware'); // Middleware de logs a la pagina
 
 app.use('/', mainRouter); //(web) home-index
-
-app.use('/productos', productsRouter);
-//app.use("/user", userRouter);
+app.use('/usuario', userRouter); //usuarios
+app.use('/productos', productsRouter); //productos
+app.use('/administracion', adminRouter); //administracion
 
 
 app.use(logMiddleware); // app.use del Middleware de log a la pagina

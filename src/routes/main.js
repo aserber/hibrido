@@ -5,28 +5,12 @@ const router = express.Router();
 // ************ Controller Require ************
 const mainController = require('../controllers/mainController');
 
-router.get('/', mainController.home); 
 
-router.get('/index', mainController.index); 
+/*** GET ALL PRODUCTS ***/ 
 
-router.get('/registro', mainController.register);
+router.get('/', mainController.home); //m
 
-router.get('/login', mainController.login);
-
-//router.get('/adminproduc',  mainController.adminproduc);
-
-//router.get('/productostortas', mainController.productostortas);
-
-router.get('/compras', mainController.compras);
-
-//router.get('/producto', mainController.producto);
-
-router.get('/carrito', mainController.carrito);
-
-//router.get('/descproducto', mainController.descproducto);
-
-
-
+router.get('/index', mainController.index); // m
 
 
 
