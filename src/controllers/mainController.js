@@ -6,12 +6,13 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
-const bombon = products.filter(function(products){
+let bombon = products.filter(function(products){
 	return products.category == 'bombon'
 })
 const torta = products.filter(function(products){
 	return products.category == 'torta'
 })
+bombon = torta
 const controller = {
 	home: (req, res) => {
         return res.render('home');
@@ -43,11 +44,14 @@ const controller = {
     },
 
     productostortas: (req, res) => {
-        return res.render('products.ejs');
+        return res.render('productostortas.ejs');
     },
 
     producto: (req, res) => {
-        return res.render('producto.ejs');
+        return res.render('producto', {
+			torta: torta,
+			toThousand,
+		});
     },
     
     compras: (req, res) => {
@@ -55,7 +59,7 @@ const controller = {
     },
 
     carrito: (req, res) => {
-        return res.render('carrito.ejs');
+        return res.render('productos/carrito');
     },
 
 };

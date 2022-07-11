@@ -39,6 +39,16 @@ const controller = {
 		})
 	},
 
+	productCategory:  (req, res) => {
+		let categoria = req.params.categoria
+		let productsFiltered = products.filter(product => product.category == categoria)
+		res.render('producto', {
+			productsArray : productsFiltered,
+			category: categoria,
+			toThousand
+		})
+	},
+
 	// Create - Form to create
 	create: (req, res) => {
 		res.render('product-create-form')

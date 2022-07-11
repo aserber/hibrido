@@ -33,8 +33,8 @@ const productsRouter = require('./routes/products'); // Rutas /products
 const logMiddleware = require('./middlewares/logMiddleware'); // Middleware de logs a la pagina
 
 app.use('/', mainRouter);
-app.use('/products', productsRouter);
 
+app.use('/products', productsRouter);
 //app.use("/user", userRouter);
 
 
