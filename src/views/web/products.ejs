@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Include Head -->
-<%- include('partials/head', {title: 'Todos los productos'}) %>
+<%- include('../partials/head.ejs') , {title: 'Todos los productos'}) %>
 <body class="prod">
 	<!-- Header -->
-	<%- include('partials/header') %>
+
+	
+	<%- include('../partials/header.ejs') %>
 	<!-- /Header -->
 
 	<!-- todos los productos -->
@@ -42,5 +44,5 @@
 
 	<!-- /footer -->
 </body>
-<%- include('partials/footer') %>
+<%- include('../partials/footer.ejs') %>
 </html>
