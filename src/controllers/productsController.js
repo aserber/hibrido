@@ -10,23 +10,23 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 const controller = {
 	// Root - Show all products
 	index: (req, res) => {
-		res.render('products', {
+		res.render('productos', {
 			products,
 			toThousand
 		})
 	},
-	producto:(req, res) => {
-		res.render('producto', {
-			products,
-			toThousand
-		})
-	},
-	producto2:(req, res) => {
-		res.render('productostortas', {
-			products,
-			toThousand
-		})
-	},
+//	producto:(req, res) => {
+//		res.render('producto', {
+//			products,
+//			toThousand
+//		})
+//	},
+//	producto2:(req, res) => {
+//		res.render('productostortas', {
+//			products,
+//			toThousand
+////		})
+//	},
 	
 
 	// Detail - Detail from one product
@@ -101,7 +101,15 @@ const controller = {
 		fs.writeFileSync(productsFilePath, JSON.stringify(finalProducts, null, ' '));
 		res.redirect('/');
 	},
-
+	search: (req, res) => {
+		let search = req.query.keywords;
+		let productsToSearch = products.filter(product => product.name.toLowerCase().includes(search));	
+		res.render('results', { 
+			products: productsToSearch, 
+			search,
+			toThousand,
+		});
+	},
 
 
 

@@ -6,13 +6,13 @@ const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
-let bombon = products.filter(function(products){
-	return products.category == 'bombon'
+let Chocolate = products.filter(function(products){
+	return products.category == 'Chocolate'
 })
-const torta = products.filter(function(products){
-	return products.category == 'torta'
+const Pasteleria = products.filter(function(products){
+	return products.category == 'Pasteleria'
 })
-bombon = torta
+Chocolate = Pasteleria
 const controller = {
 	home: (req, res) => {
         return res.render('home');
@@ -20,20 +20,12 @@ const controller = {
 
 	index: (req, res) => {
 		res.render('index', {
-			torta,
-			bombon,
+			Pasteleria,
+			Chocolate,
 			toThousand
 		});
 	},
-	search: (req, res) => {
-		let search = req.query.keywords;
-		let productsToSearch = products.filter(product => product.name.toLowerCase().includes(search));	
-		res.render('results', { 
-			products: productsToSearch, 
-			search,
-			toThousand,
-		});
-	},
+
 
 
 	register: (req, res) => {
@@ -43,16 +35,16 @@ const controller = {
         return res.render('login.ejs');
     },
 
-    productostortas: (req, res) => {
-        return res.render('productostortas.ejs');
-    },
+    //productosTortas: (req, res) => {
+      //  return res.render('productosTortas.ejs');
+    //},
 
-    producto: (req, res) => {
-        return res.render('producto', {
-			torta: torta,
-			toThousand,
-		});
-    },
+   // producto: (req, res) => {
+      //  return res.render('producto', {
+		//	Pasteleria: Pasteleria,
+		//	toThousand,
+	//	});
+    //},
     
     compras: (req, res) => {
         return res.render('compras.ejs');
