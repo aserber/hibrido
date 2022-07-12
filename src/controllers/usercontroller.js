@@ -6,10 +6,10 @@
 
 const controller = {
     register: (req, res) => {
-        return res.render('usuarios/registro');
+        return res.render('usuario/registro');
     },
     login: (req, res) => {
-        return res.render('usuarios/login');
+        return res.render('usuario/login');
     },
 
 }

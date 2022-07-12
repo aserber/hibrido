@@ -11,3 +11,5 @@ router.delete('/delete/:id', adminController.destroy);
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', adminController.create); 
 router.post('/', adminController.store); 
+
+module.exports = router;

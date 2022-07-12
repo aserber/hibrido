@@ -37,7 +37,7 @@ const logMiddleware = require('./middlewares/logMiddleware'); // Middleware de l
 app.use('/', mainRouter); //(web) home-index
 app.use('/usuario', userRouter); //usuarios
 app.use('/productos', productsRouter); //productos
-//app.use('/administracion', adminRouter); //administracion
+app.use('/administracion', adminRouter); //administracion
 
 
 app.use(logMiddleware); // app.use del Middleware de log a la pagina
