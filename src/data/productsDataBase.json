@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
      "id": 1,
      "name": "Bombones Dulce de Leche",
@@ -162,3 +163,168 @@
      "category": "torta"
     }
    ]
+=======
+ {
+  "id": 1,
+  "name": "Bombones Dulce de Leche",
+  "price": 2500,
+  "discount": "15",
+  "category": "Chocolate",
+  "description": "Tabletas de chocolate",
+  "image": "chocolate1.jpg"
+ },
+ {
+  "id": 2,
+  "name": "Bombones Surtidos",
+  "price": 2500,
+  "discount": "15",
+  "category": "Chocolate",
+  "description": "falta",
+  "image": "chocolate2.jpg"
+ },
+ {
+  "id": 3,
+  "name": "Bombones Macizos",
+  "description": "falta",
+  "price": 2500,
+  "discount": "15",
+  "image": "chocolate3.jpg",
+  "category": "Chocolate"
+ },
+ {
+  "id": 4,
+  "name": "Bombones Rellenos",
+  "description": "falta",
+  "price": 2500,
+  "discount": "15",
+  "image": "chocolate6.jpg",
+  "category": "Chocolate"
+ },
+ {
+  "id": 5,
+  "name": "Surtido de Bombones",
+  "description": "falta",
+  "price": 20999,
+  "discount": 12,
+  "image": "alineateche.jpg",
+  "category": "Chocolate"
+ },
+ {
+  "id": 6,
+  "name": "Pasas de Uva con Chocolate",
+  "description": "falta",
+  "price": 36700,
+  "discount": 5,
+  "image": "confite2.jpg",
+  "category": "Chocolate"
+ },
+ {
+  "id": 7,
+  "name": "Almendras con Chocolate",
+  "description": "falta",
+  "price": 148000,
+  "discount": 2,
+  "image": "confite3.jpg",
+  "category": "Chocolate"
+ },
+ {
+  "id": 8,
+  "name": "Mani con Chocolate",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "confite4.jpg",
+  "category": "Chocolate"
+ },
+ {
+  "id": 9,
+  "name": "Torta Decorada con Macarones",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto4.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 11,
+  "name": "Torta decorada para Casamiento",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto17.jpeg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 12,
+  "name": "Torta decorada",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto3.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 13,
+  "name": "Mousse de Mix de Chocolates",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto1.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 14,
+  "name": "Lemon Pie",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto2.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 15,
+  "name": "Selva Negra",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto13.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 16,
+  "name": "Torta de vainilla",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto10.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 17,
+  "name": "Mousse de Frutos del Bosque",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto5.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 18,
+  "name": "Macarones",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto6.jpg",
+  "category": "Pasteleria"
+ },
+ {
+  "id": 19,
+  "name": "Super Chocolate",
+  "description": "Mani cubierto de chocolate amargo",
+  "price": 11399,
+  "discount": 0,
+  "image": "fotoProducto7.jpg",
+  "category": "Pasteleria"
+ }
+]
+>>>>>>> aa14a0fec81dab6285b23853faec576614ba04c4

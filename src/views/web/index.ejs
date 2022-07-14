@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Include Head -->
-<%- include('partials/head', {title: 'Inicio'}) %>
+<%- include('../partials/head', {title: 'Inicio'}) %>
 <body class= "prod">
 	<!-- Header -->
-	<%- include('partials/header') %>
+	<%- include('../partials/header') %>
 	<!-- /Header -->
 
 	<!-- ultima visita -->
@@ -14,12 +14,12 @@
 				<h2 class="products-title">PASTELERIA</h2>
 			</div>
 			<!-- Show the "visited" products -->	
-			<% torta.forEach(function(product){ 
+			<% Pasteleria.forEach(function(product){ 
 				let finalPrice = (product.price * ((100 - product.discount) / 100)).toFixed(0)
 			%>
 				<div class="col-12 col-sm-6 col-lg-3">
 					<section class="product-box">
-						<a href="/products/detail/<%= product.id %>">
+						<a href="/productos/detail/<%= product.id %>">
 							<figure class="product-box_image">
 								<img class= "img2" src="/images/products/<%= product.image %>" alt="imagen de producto">
 							</figure>
@@ -44,12 +44,12 @@
 					<h2 class="products-title">CHOCOLATE</h2>
 				</div>
 				<!-- Show the "in-sale" products -->
-				<% bombon.forEach(function(product){ 
+				<% Chocolate.forEach(function(product){ 
 					let finalPrice = (product.price * ((100 - product.discount) / 100)).toFixed(0)
 				%>
 					<div class="col-12 col-sm-6 col-lg-3">
 						<section class="product-box">
-							<a href="/products/detail/<%= product.id %>">
+							<a href="/productos/detail/<%= product.id %>">
 								<figure class="product-box_image">
 									<img class= "img2" src="/images/products/<%= product.image %>" alt="imagen de producto">
 								</figure>
@@ -70,7 +70,7 @@
 			<!-- /Ofertas -->
 			
 			<!-- footer -->
-			<%- include('partials/footer') %>
+			<%- include('../partials/footer.ejs') %>
 			<!-- /footer -->
 		</body>	
 		</html>

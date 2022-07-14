@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Include Head -->
-<%- include('partials/head', {title: 'Editando: ' + '¿?'}) %>
+<%- include('../partials/head', {title: 'Editando: ' + '¿?'}) %>
 <body class = "prod">
 	<!-- Header -->
-	<%- include('partials/header') %>
+	<%- include('../partials/header') %>
 	<!-- /Header -->
 
 	<div class="container products-wrapper">
@@ -14,7 +14,7 @@
 			</div>
 		</div>
 		<div class="col-12">
-			<form action="/products/edit/<%= productToEdit.id %>?_method=PATCH" method="POST">
+			<form action="C:\Users\Usuario\Desktop\digital\hibrido\src\views\admin\product-edit-form.ejs<%= productToEdit.id %>?_method=PATCH" method="POST">
 				<div class="row product-detail">
 					<div class="col-12 col-md-6">
 						<label for="name" class="form-label">Nombre del producto:</label>
@@ -51,7 +51,7 @@
 	<!-- /todos los productos -->
 
 	<!-- footer -->
-	<%- include('partials/footer') %>
+	<%- include('../partials/footer.ejs') %>
 	<!-- /footer -->
 </body>	
 </html>

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <!-- Include Head -->
-<%- include('partials/head', {title: '¿?'}) %>
-<body class= "prod">
+<%- include('../partials/head.ejs') %>
+
 	<!-- Header -->
-	<%- include('partials/header') %>
+	<%- include('../partials/header.ejs') %>
 	<!-- /Header -->
 
+	<body class= "prod">
 	<!-- product detail -->
 	<div class="container products-wrapper">
 		<div class="row">
@@ -56,8 +57,8 @@
 						<a href="#" class="buy-now-button">COMPRAR AHORA</a>
 						<hr>
 
-						<a href="/products/edit/<%= product.id %>" class="action-button edit">EDITAR PRODUCTO</a>
-						<form action="/products/delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+						<a href="admin/edit/<%= product.id %>" class="action-button edit">EDITAR PRODUCTO</a>
+						<form action="/admin/delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
 							<button type="submit" class="action-button delete">ELIMINAR</button>
 						</form>
 					</article>
@@ -68,7 +69,7 @@
 	<!-- /product detail -->
 
 	<!-- footer -->
-	<%- include('partials/footer') %>
+	<%- include('../partials/footer.ejs') %>
 	<!-- /footer -->
 
 </body>	
