@@ -1,5 +1,4 @@
 [
-<<<<<<< HEAD
     {
      "id": 1,
      "name": "Bombones Dulce de Leche",
@@ -161,9 +160,8 @@
      "discount": 0,
      "image": "fotoProducto7.jpg",
      "category": "torta"
-    }
-   ]
-=======
+    },
+   
  {
   "id": 1,
   "name": "Bombones Dulce de Leche",
@@ -327,4 +325,4 @@
   "category": "Pasteleria"
  }
 ]
->>>>>>> aa14a0fec81dab6285b23853faec576614ba04c4
+
