@@ -12,8 +12,7 @@ router.get('/:categoria', productsController.productCategory);
 /*** SEARCHE ONE PRODUCT ***/ 
 router.get('/search', productsController.search); 
 
-router.get('/compras', productsController.compras); //p
-router.get('/carrito', productsController.carrito);//p
+
 
 
 

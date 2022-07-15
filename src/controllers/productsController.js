@@ -9,13 +9,7 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 const controller = {
 
-	carrito: (req, res) => {
-        return res.render('./productos/carrito');
-    },
 
-    compras: (req, res) => {
-        return res.render('./productos/compras');
-    },
 
 	// Detail - Detail from one product
 	detail: (req, res) => {

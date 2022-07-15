@@ -32,6 +32,13 @@ const controller = {
 	//		toThousand
 	//	})
 	//},
+	carrito: (req, res) => {
+        return res.render('web/carrito');
+    },
+
+    compras: (req, res) => {
+        return res.render('./web/compras');
+    },
 
 };
 
