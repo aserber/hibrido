@@ -1,4 +1,167 @@
 [
+    {
+     "id": 1,
+     "name": "Bombones Dulce de Leche",
+     "price": 2500,
+     "discount": "15",
+     "category": "bombon",
+     "description": "Tabletas de chocolate",
+     "image": "chocolate1.jpg"
+    },
+    {
+     "id": 2,
+     "name": "Bombones Surtidos",
+     "price": 2500,
+     "discount": "15",
+     "category": "bombon",
+     "description": "falta",
+     "image": "chocolate2.jpg"
+    },
+    {
+     "id": 3,
+     "name": "Bombones Macizos",
+     "description": "falta",
+     "price": 2500,
+     "discount": "15",
+     "image": "chocolate3.jpg",
+     "category": "bombon"
+    },
+    {
+     "id": 4,
+     "name": "Bombones Rellenos",
+     "description": "falta",
+     "price": 2500,
+     "discount": "15",
+     "image": "chocolate6.jpg",
+     "category": "bombon"
+    },
+    {
+     "id": 5,
+     "name": "Surtido de Bombones",
+     "description": "falta",
+     "price": 20999,
+     "discount": 12,
+     "image": "alineateche.jpg",
+     "category": "bombon"
+    },
+    {
+     "id": 6,
+     "name": "Pasas de Uva con Chocolate",
+     "description": "falta",
+     "price": 36700,
+     "discount": 5,
+     "image": "confite2.jpg",
+     "category": "bombon"
+    },
+    {
+     "id": 7,
+     "name": "Almendras con Chocolate",
+     "description": "falta",
+     "price": 148000,
+     "discount": 2,
+     "image": "confite3.jpg",
+     "category": "bombon"
+    },
+    {
+     "id": 8,
+     "name": "Mani con Chocolate",
+     "description": "Mani cubierto de chocolate amargo",
+     "price": 11399,
+     "discount": 0,
+     "image": "confite4.jpg",
+     "category": "bombon"
+    },
+    {
+     "id": 9,
+     "name": "Torta Decorada con Macarones",
+     "description": "Mani cubierto de chocolate amargo",
+     "price": 11399,
+     "discount": 0,
+     "image": "fotoProducto4.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 11,
+     "name": "Torta decorada para Casamiento",
+     "description": "Bizcochuelo de dos pisos, de Limón decorado por dentro y por fuera de crema, duraznos, y maracuyá.",
+     "price": 14499,
+     "discount": 0,
+     "image": "fotoProducto17.jpeg",
+     "category": "torta"
+    },
+    {
+     "id": 12,
+     "name": "Torta decorada",
+     "description": "Bizcochuelo de 3 pisos, de Limón, con chocolate blanco, frutillas, y flores de decoración. (No comestibles). ",
+     "price": 12299,
+     "discount": 0,
+     "image": "fotoProducto3.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 13,
+     "name": "Mousse de Mix de Chocolates",
+     "description": "Bizcochuelo de chocolate con relleno de Mousse de Chocolate, decorado con bombones.",
+     "price": 11399,
+     "discount": 0,
+     "image": "fotoProducto1.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 14,
+     "name": "Lemon Pie",
+     "description":  "Consiste en una crujiente base de masa quebrada, una cremosa crema de limón y se termina con un merengue italiano",
+     "price": 4500,
+     "discount": 0,
+     "image": "fotoProducto2.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 15,
+     "name": "Selva Negra",
+     "description": "Bizcochuelo genovés de chocolate embebido en almíbar con Kirsch, relleno y recubierto de crema chantillí y cerezas maceradas en kirsch o guindas y decorado con virutas de chocolate y cerezas.",
+     "price": 6500,
+     "discount": 0,
+     "image": "fotoProducto13.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 16,
+     "name": "Torta de vainilla",
+     "description": "Bizcochuelo de vainillas de Frutillas con Mousse de Frutos del Bosque.",
+     "price": 5000,
+     "discount": 0,
+     "image": "fotoProducto10.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 17,
+     "name": "Mousse de Frutos del Bosque",
+     "description": "Consiste en una masa crujiente base de masa quebrada, con Mousse de crema de Frutos del Bosque.",
+     "price": 4000,
+     "discount": 0,
+     "image": "fotoProducto5.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 18,
+     "name": "Macarrones",
+     "description": "Macarrones de Frambuesa, Pistacho, Limón",
+     "price": 3000,
+     "discount": 0,
+     "image": "fotoProducto6.jpg",
+     "category": "torta"
+    },
+    {
+     "id": 19,
+     "name": "Super Chocolate",
+     "description": "",
+     "price": 11399,
+     "discount": 0,
+     "image": "fotoProducto7.jpg",
+     "category": "torta"
+    },
+   
  {
   "id": 1,
   "name": "Bombones Dulce de Leche",
@@ -162,3 +325,4 @@
   "category": "Pasteleria"
  }
 ]
+
