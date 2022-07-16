@@ -14,19 +14,19 @@
 			</div>
 		</div>
 		<div class="col-12">
-			<form action="C:\Users\Usuario\Desktop\digital\hibrido\src\views\admin\product-edit-form.ejs<%= productToEdit.id %>?_method=PATCH" method="POST">
+			<form action="/admin/detail/<%= productToEdit.id %>?_method=PATCH" method="POST">
 				<div class="row product-detail">
 					<div class="col-12 col-md-6">
 						<label for="name" class="form-label">Nombre del producto:</label>
-						<input type="text" id="name" name="name" placeholder="Ej: Zapatillas Reebok" class="form-input">
+						<input type="text" id="name" name="name" placeholder="Ej: Zapatillas Reebok" value="<%= productToEdit.name%>" class="form-input">
 					</div>
 					<div class="col-12 col-md-6">
 						<label for="price" class="form-label">Precio del producto:</label>
-						<input type="number" id="price" name="price" placeholder="Ej: 5678" class="form-input">
+						<input type="number" id="price" name="price" placeholder="Ej: 5678" value="<%= productToEdit.price%>" class="form-input">
 					</div>
 					<div class="col-12 col-md-6">
 						<label for="discount" class="form-label">Descuento:</label>
-						<input type="number" id="discount" name="discount" placeholder="Ej: 15" class="form-input">
+						<input type="number" id="discount" name="discount" placeholder="Ej: 15" value="<%= productToEdit.discount%>" class="form-input">
 					</div>
 					<div class="col-12 col-md-6">
 						<label for="category" class="form-label">Categoría:</label>
@@ -41,7 +41,7 @@
 						<textarea name="description" id="description" class="form-input"><%= productToEdit.description %></textarea>
 					</div>
 					<div class="col-12">
-						<a href= "../"><button type="submit" class="buy-now-button">Guardar producto</button></a>
+						<button type="submit" class="buy-now-button">Guardar producto</button>
 					</div>
 				</div>
 			</form>

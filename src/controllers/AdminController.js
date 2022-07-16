@@ -57,15 +57,12 @@ const controller = {
 			...req.body,
 			image: productToEdit.image,
 		};
-		
-		let newProducts = products.map(product => {
-			if (product.id == productToEdit.id) {
-				return product = {...productToEdit};
-			}
-			return product;
-		})
+		console.log(productToEdit);
 
-		fs.writeFileSync(productsFilePath, JSON.stringify(newProducts, null, ' '));
+		let indice = products.findIndex(producto => producto.id == id);
+		products[indice] = productToEdit
+
+		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
 		res.redirect('/');
 	},
 

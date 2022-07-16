@@ -7,7 +7,7 @@ const multer = require('multer');
 
 /*** EDIT ONE PRODUCT ***/ 
 router.get('/edit/:id', adminController.edit); 
-router.patch('/edit/:id', adminController.update);
+router.patch('/detail/:id', adminController.update);
 /*** DELETE ONE PRODUCT***/ 
 router.delete('/delete/:id', adminController.destroy); 
 /*** CREATE ONE PRODUCT ***/ 
