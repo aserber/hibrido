@@ -9,24 +9,6 @@ const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
 const controller = {
 
-	carrito: (req, res) => {
-        return res.render('./productos/carrito');
-    },
-
-    compras: (req, res) => {
-        return res.render('./productos/compras');
-    },
-
-	// Detail - Detail from one product
-	detail: (req, res) => {
-		let id = req.params.id
-		let product = products.find(product => product.id == id)
-		res.render('productos/detail', {
-			product,
-			toThousand
-		}) 	
-	},
-
 	productCategory:  (req, res) => {
 		let categoria = req.params.categoria
 		let productsFiltered = products.filter(product => product.category == categoria)
