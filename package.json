@@ -6,6 +6,7 @@
     "start": "nodemon ./src/bin/www"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "bootstrap-icons": "^1.8.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -31,6 +32,5 @@
     "url": "https://github.com/aserber/hibrido/issues"
   },
   "homepage": "https://github.com/aserber/hibrido#readme",
-  "devDependencies": {},
   "description": ""
 }
