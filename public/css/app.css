@@ -326,12 +326,13 @@ hr {
 }
 
 .small {
-  font-size: 1.8em;
+  font-size: 1.8em !important;
   color: var(--green);
 }
 
 .small span {
   text-decoration: line-through;
+  font-size: 1.8em!important;
 }
 
 .actions-list {
