@@ -29,11 +29,11 @@
  {
   "id": 3,
   "name": "Bombones Macizos",
-  "description": "falta",
-  "price": 2500,
+  "price": "3000",
   "discount": "15",
-  "image": "chocolate3.jpg",
-  "category": "Chocolate"
+  "category": "Chocolate",
+  "description": "falta",
+  "image": "chocolate3.jpg"
  },
  {
   "id": 4,
