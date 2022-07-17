@@ -11,7 +11,7 @@
  {
   "id": 1,
   "name": "Bombones Dulce de Leche",
-  "price": 2500,
+  "price": "2000",
   "discount": "15",
   "category": "Chocolate",
   "description": "Tabletas de chocolate",
@@ -20,7 +20,7 @@
  {
   "id": 2,
   "name": "Bombones Surtidos",
-  "price": 2500,
+  "price": "1750",
   "discount": "15",
   "category": "Chocolate",
   "description": "falta",
@@ -31,7 +31,7 @@
   "name": "Bombones Macizos",
   "price": "3000",
   "discount": "15",
-  "category": "Chocolate",
+  "category": "",
   "description": "falta",
   "image": "chocolate3.jpg"
  },
@@ -92,11 +92,11 @@
  {
   "id": 11,
   "name": "Torta decorada para Casamiento",
+  "price": "1200",
+  "discount": "0",
+  "category": "Pasteleria",
   "description": "Bizcochuelo de dos pisos, de Limón decorado por dentro y por fuera de crema, duraznos, y maracuyá.",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto17.jpeg",
-  "category": "Pasteleria"
+  "image": "fotoProducto17.jpeg"
  },
  {
   "id": 12,
