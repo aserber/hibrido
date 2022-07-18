@@ -27,4 +27,8 @@ Se ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /favicon.icoSe i
 =======
 Se ingreso en la pagina /pruebaSe ingreso en la pagina /favicon.icoSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /favicon.icoSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /favicon.icoSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /favicon.icoSe ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /
 >>>>>>> 5743b1e302f537ed1b528b378daf65b2d5c160bc
+<<<<<<< HEAD
 Se ingreso en la pagina /img/portada.jpgSe ingreso en la pagina /img/portada.jpg
+=======
+Se ingreso en la pagina /img/portada.jpg
+>>>>>>> ab8f1eae0898c922cb58eeb7b79cf1b26bc72142
