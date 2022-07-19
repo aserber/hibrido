@@ -100,12 +100,12 @@
  },
  {
   "id": 12,
-  "name": "Torta decorada",
+  "name": "asdasd",
+  "price": "12000",
+  "discount": "0",
+  "category": "",
   "description": "Bizcochuelo de 3 pisos, de Limón, con chocolate blanco, frutillas, y flores de decoración. (No comestibles).",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto3.jpg",
-  "category": "Pasteleria"
+  "image": "fotoProducto3.jpg"
  },
  {
   "id": 13,

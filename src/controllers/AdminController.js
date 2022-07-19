@@ -35,7 +35,7 @@ const controller = {
     // Create - Form to create
 
 	crear:(req, res) => {
-		res.render('admin/crear2')
+		return res.render('admin/crear')
 	},
     	// Create -  Method to store
 	store: (req, res) => {
