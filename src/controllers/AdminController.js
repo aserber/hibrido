@@ -7,6 +7,14 @@ const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 const toThousand = n => n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 
+let Chocolate = products.filter(function(products){
+    return products.category == 'Chocolate'
+})
+const Pasteleria = products.filter(function(products){
+    return products.category == 'Pasteleria'
+})
+Chocolate = Pasteleria
+
 const controller = {
 
 	detail: (req, res) => {
@@ -25,10 +33,10 @@ const controller = {
 	},
 
     // Create - Form to create
-	create: (req, res) => {
-		res.render('admin/product-create-form')
-	},
 
+	crear:(req, res) => {
+		res.render('admin/crear2')
+	},
     	// Create -  Method to store
 	store: (req, res) => {
 		let newProduct = {
@@ -65,6 +73,12 @@ const controller = {
 		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
 		res.redirect('/');
 	},
-
+	administrar: (req, res) => {
+		res.render('admin/administrar', {
+			Pasteleria,
+			Chocolate,
+			toThousand
+		});
+	},
 }
 module.exports = controller;

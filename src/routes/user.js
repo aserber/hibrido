@@ -8,7 +8,7 @@ const userController = require('../controllers/userController');
 
 router.get('/registro', userController.register); //u
 
-// router.post('/registro', uploadFile.single("avatar"), validations , userController.processRegister);
+//router.post('/registro', uploadFile.single("avatar"), validations , userController.processRegister);
 
 router.get('/login', userController.login); //u
 

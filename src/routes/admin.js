@@ -11,9 +11,10 @@ router.patch('/detail/:id', adminController.update);
 /*** DELETE ONE PRODUCT***/ 
 router.delete('/delete/:id', adminController.destroy); 
 /*** CREATE ONE PRODUCT ***/ 
-router.get('/create', adminController.create); 
+router.get('/crear', adminController.crear); 
 router.post('/', adminController.store); 
 /*** GET ONE PRODUCT ***/ 
 router.get('/detail/:id', adminController.detail); 
+router.get("/administrar", adminController.administrar);
 
 module.exports = router;
