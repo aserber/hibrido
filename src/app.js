@@ -62,3 +62,16 @@ app.use(logMiddleware); // app.use del Middleware de log a la pagina
 
 // ************ exports app - dont'touch ************
 module.exports = app;
+
+
+
+
+
+// Rutas
+/* const groupsRouter = require('./routes/groups');
+
+app.get('/', (req, res) => {
+    res.redirect('/groups/')
+});
+app.use('/groups', groupsRouter);
+*/
