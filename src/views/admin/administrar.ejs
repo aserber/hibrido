@@ -19,7 +19,7 @@
 			%>
 				<div class="col-12 col-sm-6 col-lg-3">
 					<section class="product-box">
-						<a href="../admin/detail/<%= product.id %>">
+						
 							<figure class="product-box_image">
 								<img class= "img2" src="/images/products/<%= product.image %>" alt="imagen de producto">
 							</figure>
@@ -27,7 +27,10 @@
 								<h2><%= toThousand(finalPrice) %></h2>
 								<span><%= product.discount %> %OFF</span>
 								<p><%= product.name %></p>
-								<i class="fas fa-truck"></i>
+                                <a href="edit/<%= product.id %>" class="action-button edit">EDITAR PRODUCTO</a>
+                                <form action="delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+                                    <button type="submit" class="action-button delete">ELIMINAR</button>
+                                </form>
 							</article>
 						</a>
 					</section>
@@ -50,7 +53,7 @@
 				%>
 					<div class="col-12 col-sm-6 col-lg-3">
 						<section class="product-box">
-							<a href="../admin/detail/<%= product.id %>">
+							
 								<figure class="product-box_image">
 									<img class= "img2" src="/images/products/<%= product.image %>" alt="imagen de producto">
 								</figure>
@@ -58,9 +61,15 @@
 									<h2><%= toThousand(finalPrice) %></h2>
 									<span><%= product.discount %> %OFF</span>
 									<p><%= product.name %></p>
-									<i class="fas fa-truck"></i>
+                                    <a href="edit/<%= product.id %>" class="action-button edit">EDITAR PRODUCTO</a>
+                                    <form action="delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+                                        <button type="submit" class="action-button delete">ELIMINAR</button>
+                                    </form>
+									
 								</article>
 							</a>
+                            
+						
 						</section>
 					</div>
 				<% }) %>

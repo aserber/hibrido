@@ -15,5 +15,6 @@ router.get('/create', adminController.create);
 router.post('/', adminController.store); 
 /*** GET ONE PRODUCT ***/ 
 router.get('/detail/:id', adminController.detail); 
+router.get("/administrar", adminController.administrar);
 
 module.exports = router;
