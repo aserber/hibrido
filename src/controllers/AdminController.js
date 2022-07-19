@@ -33,9 +33,7 @@ const controller = {
 	},
 
     // Create - Form to create
-	create: (req, res) => {
-		res.render('admin/product-create-form')
-	},
+
 	crear:(req, res) => {
 		res.render('admin/crear2')
 	},
