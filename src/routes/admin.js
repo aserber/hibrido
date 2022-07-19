@@ -12,6 +12,7 @@ router.patch('/detail/:id', adminController.update);
 router.delete('/delete/:id', adminController.destroy); 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', adminController.create); 
+router.get('/crear2', adminController.crear); 
 router.post('/', adminController.store); 
 /*** GET ONE PRODUCT ***/ 
 router.get('/detail/:id', adminController.detail); 

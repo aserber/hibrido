@@ -36,7 +36,9 @@ const controller = {
 	create: (req, res) => {
 		res.render('admin/product-create-form')
 	},
-
+	crear:(req, res) => {
+		res.render('admin/crear2')
+	},
     	// Create -  Method to store
 	store: (req, res) => {
 		let newProduct = {
@@ -73,12 +75,12 @@ const controller = {
 		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
 		res.redirect('/');
 	},
-		administrar: (req, res) => {
-			res.render('admin/administrar', {
-				Pasteleria,
-				Chocolate,
-				toThousand
-			});
-		},
+	administrar: (req, res) => {
+		res.render('admin/administrar', {
+			Pasteleria,
+			Chocolate,
+			toThousand
+		});
+	},
 }
 module.exports = controller;
