@@ -1,10 +1,19 @@
 const express = require('express');
 const router = express.Router();
 const adminController = require ("../controllers/adminController");
-/*const path = require('path');
+/*const path = require('path');*/
 const multer = require('multer');
 
-
+var storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+      cb(null, path.resolve(__dirname, '../../public/images/motos'));
+    },
+    filename: function (req, file, cb) {
+      cb(null, 'moto-'+Date.now()+path.extname(file.originalname))
+    }
+  })
+   
+  const upload = multer({ storage })
 /*** EDIT ONE PRODUCT ***/ 
 router.get('/edit/:id', adminController.edit); 
 router.patch('/detail/:id', adminController.update);
@@ -12,7 +21,7 @@ router.patch('/detail/:id', adminController.update);
 router.delete('/delete/:id', adminController.destroy); 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/crear', adminController.crear); 
-router.post('/', adminController.store); 
+router.post('/crear', adminController.store); 
 /*** GET ONE PRODUCT ***/ 
 router.get('/detail/:id', adminController.detail); 
 router.get("/administrar", adminController.administrar);

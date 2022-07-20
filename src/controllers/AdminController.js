@@ -13,7 +13,7 @@ let Chocolate = products.filter(function(products){
 const Pasteleria = products.filter(function(products){
     return products.category == 'Pasteleria'
 })
-Chocolate = Pasteleria
+
 
 const controller = {
 
@@ -39,15 +39,24 @@ const controller = {
 	},
     	// Create -  Method to store
 	store: (req, res) => {
+		let ultimoprod = products.pop();
+		products.push(ultimoprod);
+
 		let newProduct = {
 			id: products[products.length - 1].id + 1,
-			...req.body,
-			image: 'default-image.png'
-		};
-		products.push(newProduct)
-		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
-		res.redirect('/');
+			name: req.body.nombre,
+			price: req.body.price,
+			discount: req.body.discount,
+			category: req.body.category,
+			description: req.body.description,
+			image: 'default-image.png',
+		}
+		products.push(newProduct);
+		let nuevoProductoGuardar = JSON.stringify(products, null, 2);
+		fs.writeFileSync(path.resolve(__dirname,"../data/productsDataBase.json"), nuevoProductoGuardar);
+		res.redirect("admin/administrar")
 	},
+
     // Delete - Delete one product from DB
 	destroy : (req, res) => {
 		let id = req.params.id;

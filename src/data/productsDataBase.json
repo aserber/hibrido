@@ -11,7 +11,7 @@
  {
   "id": 1,
   "name": "Bombones Dulce de Leche",
-  "price": "2000",
+  "price": "3000",
   "discount": "15",
   "category": "Chocolate",
   "description": "Tabletas de chocolate",
@@ -157,7 +157,7 @@
   "name": "Super Chocolate",
   "price": "500",
   "discount": "0",
-  "category": "Chocolate",
+  "category": "Pasteleria",
   "description": "Mani cubierto de chocolate amargo",
   "image": "fotoProducto7.jpg"
  }
