@@ -44,7 +44,7 @@ const controller = {
 
 		let newProduct = {
 			id: products[products.length - 1].id + 1,
-			name: req.body.nombre,
+			name: req.body.name,
 			price: req.body.price,
 			discount: req.body.discount,
 			category: req.body.category,
@@ -52,9 +52,10 @@ const controller = {
 			image: 'default-image.png',
 		}
 		products.push(newProduct);
-		let nuevoProductoGuardar = JSON.stringify(products, null, 2);
-		fs.writeFileSync(path.resolve(__dirname,"../data/productsDataBase.json"), nuevoProductoGuardar);
-		res.redirect("admin/administrar")
+
+		fs.writeFileSync(productsFilePath, JSON.stringify(products, null, ' '));
+		res.redirect('/');
+
 	},
 
     // Delete - Delete one product from DB

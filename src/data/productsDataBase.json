@@ -160,5 +160,25 @@
   "category": "Pasteleria",
   "description": "Mani cubierto de chocolate amargo",
   "image": "fotoProducto7.jpg"
+ },
+ {
+  "id": 20,
+  "image": "default-image.png",
+  "category": "Pasteleria",
+  "description": "2222222"
+ },
+ {
+  "id": 21,
+  "category": "Pasteleria",
+  "image": "default-image.png"
+ },
+ {
+  "id": 22,
+  "name": "",
+  "price": "114654645",
+  "discount": "",
+  "category": "Chocolate",
+  "description": "",
+  "image": "default-image.png"
  }
 ]
