@@ -155,10 +155,10 @@
  {
   "id": 19,
   "name": "Super Chocolate",
+  "price": "500",
+  "discount": "0",
+  "category": "Chocolate",
   "description": "Mani cubierto de chocolate amargo",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto7.jpg",
-  "category": "Pasteleria"
+  "image": "fotoProducto7.jpg"
  }
 ]
