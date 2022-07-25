@@ -110,11 +110,11 @@
  {
   "id": 13,
   "name": "Mousse de Mix de Chocolates",
+  "price": "150",
+  "discount": "50",
+  "category": "Pasteleria",
   "description": "Bizcochuelo de chocolate con relleno de Mousse de Chocolate, decorado con bombones.",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto1.jpg",
-  "category": "Pasteleria"
+  "image": "fotoProducto1.jpg"
  },
  {
   "id": 14,
@@ -180,5 +180,40 @@
   "category": "Chocolate",
   "description": "",
   "image": "default-image.png"
+ },
+ {
+  "id": 23,
+  "image": "default-image.png"
+ },
+ {
+  "id": 24,
+  "image": "default-image.png"
+ },
+ {
+  "id": 25,
+  "name": "torta among us",
+  "price": "54654654",
+  "discount": "565",
+  "category": "Chocolate",
+  "description": "",
+  "image": "default-image.png"
+ },
+ {
+  "id": 26,
+  "name": "torta among us",
+  "price": "1333",
+  "discount": "50",
+  "category": "Pasteleria",
+  "description": "",
+  "image": "producto-1658787717320.jpg"
+ },
+ {
+  "id": 27,
+  "name": "torta among us",
+  "price": "123456",
+  "discount": "50",
+  "category": "Chocolate",
+  "description": "",
+  "image": "producto-1658787912561.jpg"
  }
 ]

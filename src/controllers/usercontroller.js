@@ -3,35 +3,35 @@
 //const bcrypt = require('bcryptjs');
 //const multer = require('multer');
 const { validationResult } = require('express-validator');
-const User = require("../database/models/User");
+const User = require ("../database/models/User");
 
 const controller = {
     register: (req, res) => {
         return res.render('usuario/registro');
     },
-    login: (req, res) => {
+    login: (req, res) => {  
         return res.render('usuario/login');
     },
-    profile: (req, res) => {
-        return res.render("usuario/login");
+    profile: (req,res) => {
+        return res.render ("usuario/login");
     },
-    processRegister: (req, res) => {
+    processRegister: (req,res) => {
         const resultValidation = validationResult(req);
 
-        if (resultValidation.errors.length > 0) {
-            return res.render("usuario/registro", {
-                errors: resultValidation.mapped(),
-                oldData: req.body
+        if(resultValidation.errors.length > 0) {
+           return res.render ("usuario/registro", {
+            errors: resultValidation.mapped(),
+              oldData: req.body
             });
-        }
+        }   
 
         let userToCreate = {
             ...req.body,
-            avatar: req.file.filename
+            avatar: req
         }
-        User.create(userToCreate);
-        return res.send("ok");
-    }
+            User.create(req.body);
+            return res.send ("ok");
+     }
 
 }
 
