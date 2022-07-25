@@ -2,13 +2,14 @@ const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
 //const uploadFile = require ("../middlewares/multerMiddleware");
-//const validations = require ("../middlewares/validateRegisterMiddleware");
+const validator = require ("../middlewares/validateRegisterMiddlewares");
 
 
 
 router.get('/registro', userController.register); //u
 
-//router.post('/registro', uploadFile.single("avatar"), validations , userController.processRegister);
+// uploadFile.single("avatar"),
+router.post('/registro', validator.register , userController.processRegister);
 
 router.get('/login', userController.login); //u
 

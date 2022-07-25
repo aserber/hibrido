@@ -1,7 +1,8 @@
 const path = require ("path");
 const { body } = require("express-validator");
 
-module.exports = [
+module.exports = {
+    register: [
     body("name").notEmpty().withMessage("Tenes que completar"),
     body("last_name").notEmpty().withMessage("Tenes que completar"),
     body("email").notEmpty().withMessage("Tenes que completar").bail().isEmail().withMessage("Formato de email invalido"),
@@ -19,4 +20,4 @@ module.exports = [
         }}
         return true
     })
-];
+]};
