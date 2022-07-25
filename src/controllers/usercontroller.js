@@ -3,6 +3,7 @@
 //const bcrypt = require('bcryptjs');
 //const multer = require('multer');
 const { validationResult } = require('express-validator');
+const User = require ("../database/models/User");
 
 const controller = {
     register: (req, res) => {
@@ -22,7 +23,8 @@ const controller = {
             errors: resultValidation.mapped(),
               oldData: req.body
             });
-        }
+        }   
+            User.create(req.body);
             return res.send ("ok");
      }
 

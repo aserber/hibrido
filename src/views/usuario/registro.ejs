@@ -20,13 +20,12 @@
 
     <main class="register">
         <div class="container-registro">
-            <form action="/" method="POST" >
-                <input type="text" name="name" placeholder="Nombre y apellido">
-                <input type="text" name="user" placeholder="Nombre de usuario">
+            <form action="/registro" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Nombre ">
+                <input type="text" name="last_name" placeholder="Apellido">
                 <input type="email" name="email" placeholder="E-mail">
                 <input type="password" name="contraseña" placeholder="Contraseña">
-                <input type="password" name="confirmar Contraseña" placeholder="Confirmar Contraseña">
-                <input type="text" name="addres" placeholder="Domicilio">
+                <input type="password" name="confirmar Contraseña" placeholder="Confirmar Contraseña"> 
               <div class="botonera">
                     <input type="submit" value="Enviar">
                     <input type="reset" value="Borrar">
