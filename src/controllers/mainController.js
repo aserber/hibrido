@@ -12,7 +12,7 @@ let Chocolate = products.filter(function(products){
 const Pasteleria = products.filter(function(products){
     return products.category == 'Pasteleria'
 })
-Chocolate = Pasteleria
+
 
 const controller = {
 	home: (req, res) => {

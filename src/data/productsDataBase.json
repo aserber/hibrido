@@ -11,7 +11,7 @@
  {
   "id": 1,
   "name": "Bombones Dulce de Leche",
-  "price": "2000",
+  "price": "3000",
   "discount": "15",
   "category": "Chocolate",
   "description": "Tabletas de chocolate",
@@ -110,11 +110,11 @@
  {
   "id": 13,
   "name": "Mousse de Mix de Chocolates",
+  "price": "150",
+  "discount": "50",
+  "category": "Pasteleria",
   "description": "Bizcochuelo de chocolate con relleno de Mousse de Chocolate, decorado con bombones.",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto1.jpg",
-  "category": "Pasteleria"
+  "image": "fotoProducto1.jpg"
  },
  {
   "id": 14,
@@ -155,10 +155,10 @@
  {
   "id": 19,
   "name": "Super Chocolate",
+  "price": "500",
+  "discount": "0",
+  "category": "Pasteleria",
   "description": "Mani cubierto de chocolate amargo",
-  "price": 11399,
-  "discount": 0,
-  "image": "fotoProducto7.jpg",
-  "category": "Pasteleria"
+  "image": "fotoProducto7.jpg"
  }
 ]

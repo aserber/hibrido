@@ -1,28 +1,10 @@
-[ {
-    "id": 17,
-    "name": "Camila",
-    "lastname": "Caracciolo",
-    "email": "camilacaracciolo@hotmail.com",
-    "password": 11399,
-    "image": "fotoProducto5.jpg",
-    "category": "1"
-   },
-   {
-    "id": 18,
-    "name": "Camila",
-    "lastname": "Caracciolo",
-    "email": "camilacaracciolo@hotmail.com",
-    "password": 11399,
-    "image": "fotoProducto5.jpg",
-    "category": "1"
-   },
-   { 
-    "id": 19,
-    "name": "Camila",
-    "lastname": "Caracciolo",
-    "email": "camilacaracciolo@hotmail.com",
-    "password": 11399,
-    "image": "fotoProducto5.jpg",
-    "category": "2"
-   }
-  ]
+[
+ {
+  "id": 1,
+  "name": "maria camila",
+  "last_name": "caracciolo",
+  "email": "camilacaracciolo@hotmail.com",
+  "password": "$2b$10$IznDjAY1Nu6bfOtAC1y7VOHvnH.X1n5wu8PxsNVrm1fZ77catiKM.",
+  "category": 1
+ }
+]
