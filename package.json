@@ -18,19 +18,20 @@
     "method-override": "^3.0.0",
     "morgan": "~1.9.1",
     "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
     "nodemon": "^2.0.19",
     "validator": "^13.7.0"
   },
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aserber/hibrido.git"
+    "url": "git+https://github.com/aserber/tento_grupo7.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aserber/hibrido/issues"
+    "url": "https://github.com/aserber/tento_grupo7/issues"
   },
-  "homepage": "https://github.com/aserber/hibrido#readme",
+  "homepage": "https://github.com/aserber/tento_grupo7#readme",
   "description": ""
 }
